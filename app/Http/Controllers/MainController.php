@@ -73,6 +73,6 @@ class MainController extends Controller
         return view('Admin.layout.home',$data );
     }
         public function index(){
-        return view('Users.index');
+        return view('frontend.index');
     }
 }
